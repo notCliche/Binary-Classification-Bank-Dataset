@@ -21,7 +21,6 @@ The solution employs the following steps:
 ## How to Run
 #### 1. Prerequisites:
 You will need Python 3 and the following libraries: `numpy`, `pandas` and `scikit-learn`
-
 #### 2. Installation:
 Install the required libraries using pip:
 ```
@@ -29,13 +28,8 @@ pip install pandas scikit-learn numpy
 ```
 #### 3. Running the Script
 - Place bank_prediction.py in the same directory as the CSV data files.
-- Open a terminal in that directory.
-- Run the script with the following command:
-```
-python bank_prediction.py
-```
+- Run the notebook [`bank-predictor.ipynb`](bank-predictor.ipynb) directly in a notebook IDE like Jupyter Notebook, Google Colab etc.
 #### 4. Output
 Progress is printed to the console, and a submission.csv file is generated, ready for submission to Kaggle.
-
 ## Author
 Om Prakash Behera

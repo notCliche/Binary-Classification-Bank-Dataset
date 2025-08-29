@@ -3,7 +3,7 @@
 This project is a part of Kaggle 2025 Playground series. It aims to predict whether a client will subscribe to a bank term deposit. The bank_prediction.py script uses a high-performance LightGBM model to handle data preprocessing, model training, and prediction, generating a submission file in the required format.
 
 ## Dataset
-The data is provided in three CSV files:
+The data is provided in three CSV files, all present in `csv files.zip`:
 - `train.csv`: The training set containing client data and the target variable y (1 for subscribed, 0 for not subscribed).
 - `test.csv`: The test set for which predictions need to be made.
 - `sample_submission.csv`: A file showing the correct submission format.
